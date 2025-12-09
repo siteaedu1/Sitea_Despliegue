@@ -17,7 +17,7 @@ jobs:
           script: |
             # 1. Verificar si ya existe la carpeta, si no, clonar
             if [ ! -d "sitea_java" ]; then
-              git clone https://github.com/brandoncabra/sitea_java.git
+              git clone https://github.com/siteaedu1/Sitea_Despliegue.git
             fi
             
             # 2. Entrar y actualizar código
